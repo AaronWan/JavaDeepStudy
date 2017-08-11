@@ -2,8 +2,6 @@ package com.aita.other;
 
 import com.aita.element.Person;
 
-import java.math.BigDecimal;
-
 /**
  * Created by Aaron on 10/08/2017.
  */
