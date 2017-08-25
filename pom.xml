@@ -9,9 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>element</module>
-        <module>oop</module>
-        <module>io</module>
+        <module>element1</module>
+        <module>oop2</module>
+        <module>io3</module>
+        <module>thread4</module>
     </modules>
     <dependencies>
         <dependency>
