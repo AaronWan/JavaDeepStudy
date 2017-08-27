@@ -24,7 +24,7 @@ public class Some {
     }
 
     public static void main(String[] args) {
-        Some some=new Other();
+        Some some=new Other(10);
     }
 }
 
