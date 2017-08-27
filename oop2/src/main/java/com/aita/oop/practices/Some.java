@@ -7,16 +7,24 @@ import com.aita.oop.Other;
  * @since 5.7
  */
 public class Some {
-    private String kkkk = "dkjfkdjfkdf";
+    protected int x;
 
-    void doSomething(){
-        System.out.print(kkkk);
+    public Some() {
+        this(10);
+        System.out.println("Some()");
+    }
+
+    public Some(int x) {
+        this.x = x;
+        System.out.println("Same("+x+")");
+    }
+
+    public void doSomething(){
         System.out.println("do Some");
     }
 
     public static void main(String[] args) {
         Some some=new Other();
-        some.doSomething();
     }
 }
 

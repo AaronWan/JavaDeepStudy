@@ -4,12 +4,16 @@ import com.aita.oop.practices.Some;
 
 public class Other extends Some {
 
-    private String abc ="kkkkk";
+    public Other() {
+        super(10);
+        System.out.println("Other()");
+    }
 
-    void doSomething(){
+    public Other(int x) {
+        System.out.println("Other("+x+")");
+    }
 
-        System.out.print(abc);
+    public void doSomething(){
 
-        System.out.println(abc);
     }
 }
