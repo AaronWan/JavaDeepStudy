@@ -4,6 +4,10 @@ import java.util.Iterator;
 
 /**
  * @author 万松(Aaron)
+ *         定容栈
+ *         泛型
+ *         调整数组大小
+ *         对象游离
  * @since 5.7
  */
 public class Stack implements Iterable {
