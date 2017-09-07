@@ -36,9 +36,9 @@ public class JetbrickTemplate2Test {
         datas.put("AccountObj.Lean.name", "leanName");
         datas.put("AccountObj.Lean.age", 60);
         datas.put("AccountObj.name", "account name");
-        datas.put("AccountObj.Temp.name", "account name");
-        datas.put("AccountObj.Temp.Temp2.name", "account name");
-        datas.put("AccountObj.Temp.Temp2.Temp3.name", "account name");
+        datas.put("AccountObj.Temp.name", "zhangsan");
+        datas.put("AccountObj.Temp.Temp2.name", "lisi");
+        datas.put("AccountObj.Temp.Temp2.Temp3.name", "wangwu");
 
 
         return transfer(datas);
