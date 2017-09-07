@@ -22,23 +22,10 @@ public class StackTest {
     }
 
     @Test
-    public void pop() throws Exception {
-
-    }
-
-    @Test
-    public void isEmpty() throws Exception {
-
-    }
-
-    @Test
-    public void size() throws Exception {
-
-    }
-
-    @Test
     public void iterator() throws Exception {
-
+        Stack stack = new Stack();
+        stack.push("test");
+        stack.forEach(System.out::println);
     }
 
 }
