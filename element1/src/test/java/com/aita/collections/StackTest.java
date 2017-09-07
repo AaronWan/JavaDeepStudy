@@ -3,6 +3,11 @@ package com.aita.collections;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.ThreadFactory;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+
 import static org.junit.Assert.*;
 
 /**
@@ -13,11 +18,26 @@ public class StackTest {
     @Test
     public void push() throws Exception {
         Stack stack = new Stack();
-        stack.push("test");
-        Assert.assertTrue(stack.size() == 1);
-        Assert.assertEquals(stack.pop(), "test");
-        Assert.assertTrue(stack.size() == 0);
-        Assert.assertTrue(stack.isEmpty());
+        for (int i = 0; i < 100000000; i++) {
+            stack.push(new Object[10000]);
+            Thread.sleep(200);
+        }
+        for (int i = 0; i < 100000000; i++) {
+            stack.push(new Object[1000]);
+            Thread.sleep(1000);
+        }
+        for (int i = 0; i < 100000000; i++) {
+            stack.push(new Object[1000]);
+            Thread.sleep(1000);
+        }
+        for (int i = 0; i < 100000000; i++) {
+            stack.push(new Object[1000]);
+            Thread.sleep(100);
+        }
+        for (int i = 0; i < 100000000; i++) {
+            stack.push(new Object[1000]);
+            Thread.sleep(1000);
+        }
 
     }
 
