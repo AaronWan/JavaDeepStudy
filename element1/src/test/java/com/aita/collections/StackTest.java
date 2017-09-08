@@ -1,14 +1,6 @@
 package com.aita.collections;
 
-import org.junit.Assert;
 import org.junit.Test;
-
-import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.ThreadFactory;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
-
-import static org.junit.Assert.*;
 
 /**
  * @author 万松(Aaron)
