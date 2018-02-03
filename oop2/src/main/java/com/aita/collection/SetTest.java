@@ -20,12 +20,7 @@ public class SetTest {
         System.out.println(set);
 
 
-        Set<Person> set1=new TreeSet<>(new Comparator<Person>() {
-            @Override
-            public int compare(Person o1, Person o2) {
-                return o1.getName().equals(o2.getName())?0:1;
-            }
-        });
+        Set<Person> set1=new TreeSet<>((o1, o2) -> o1.getName().equals(o2.getName())?0:1);
 
         set1.add(new Person("name1"));
         set1.add(new Person("name1"));

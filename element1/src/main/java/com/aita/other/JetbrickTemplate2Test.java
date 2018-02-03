@@ -14,6 +14,7 @@ import java.util.Map;
  * @author 万松(Aaron)
  * @since 5.7
  */
+/**
 public class JetbrickTemplate2Test {
     @Test
     public void testValue() {
@@ -29,7 +30,8 @@ public class JetbrickTemplate2Test {
 
         System.out.println(writer.toString());
     }
-
+    **/
+/**
 
     public Map<String, Object> getData() {
         Map<String, Object> datas = new HashMap<>();
@@ -55,7 +57,7 @@ public class JetbrickTemplate2Test {
          *             age
          */
 
-        return rst;
+ /**       return rst;
     }
 
     private void setValue(Map<String, Object> rst, String key, Object o) {
@@ -77,3 +79,4 @@ public class JetbrickTemplate2Test {
         lastObj.put(temp[temp.length - 1], o);
     }
 }
+**/

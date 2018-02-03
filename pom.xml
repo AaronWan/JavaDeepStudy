@@ -13,6 +13,7 @@
         <module>oop2</module>
         <module>io3</module>
         <module>thread4</module>
+        <module>dbstudy</module>
     </modules>
     <dependencies>
         <dependency>
