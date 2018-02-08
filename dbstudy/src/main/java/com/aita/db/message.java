@@ -6,10 +6,7 @@ package com.aita.db;
 
 import java.io.Serializable;
 
-package cc.openhome;
-
-
-public class message implements Serializable {
+public class Message implements Serializable {
     private Long id;
     private String name;
     private String email;
